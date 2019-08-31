@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="jackson-module-paranamer">
+    <repository>mvn:com.fasterxml.jackson.core/jackson-databind/${jackson.version.core}/xml/features</repository>
+    <feature name="${project.artifactId}">
+        <feature>jackson-databind</feature>
+        <feature>transaction-api</feature>
+    </feature>
+</features>
